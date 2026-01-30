@@ -16,16 +16,17 @@ A Chrome extension that detects whether a website is built with [MeteorJS](https
 
 ## Install
 
-### From Chrome Web Store
+> The extension is not yet available on the Chrome Web Store. You can install it locally by following the steps below.
 
-*Coming soon*
-
-### From source
-
-1. Clone this repository
-2. Open `chrome://extensions/` in Chrome
-3. Enable **Developer mode** (top right)
-4. Click **Load unpacked** and select the project folder
+1. Download or clone this repository:
+   ```bash
+   git clone https://github.com/<your-username>/meteor-detector.git
+   ```
+2. Open **Chrome** and navigate to `chrome://extensions/`
+3. Enable **Developer mode** using the toggle in the top-right corner
+4. Click **Load unpacked**
+5. Select the `meteor-detector` folder you just cloned
+6. The extension icon should appear in your toolbar — navigate to any website to see if it runs Meteor
 
 ## How it works
 
