@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 280px;
+      padding: 16px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 14px;
+      background: #181828;
+      color: #E5E5EB;
+      margin: 0;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 16px;
+      padding: 0 4px;
+    }
+    .title {
+      font-weight: 600;
+      font-size: 16px;
+      color: #FFFFFF;
+    }
+    .status {
+      padding: 12px;
+      border-radius: 8px;
+      margin-bottom: 12px;
+    }
+    .status.meteor {
+      background: #252539;
+      border: 1px solid #DE4F4F;
+    }
+    .status.not-meteor {
+      background: #252539;
+      border: 1px solid #3A3A50;
+    }
+    .version {
+      font-size: 18px;
+      font-weight: 600;
+      color: #DE4F4F;
+    }
+    .packages {
+      margin-top: 12px;
+    }
+    .packages-title {
+      font-weight: 600;
+      margin-bottom: 6px;
+      color: #9A9AB0;
+    }
+    .package-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+    .package {
+      background: #2E2E45;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 12px;
+      color: #C5C5D6;
+      border: 1px solid #3A3A50;
+    }
+    .not-detected {
+      color: #7A7A90;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img src="icons/icon48.png" alt="Meteor Detector" width="24" height="24">
+    <span class="title">Meteor Detector</span>
+  </div>
+  <div id="content">
+    <div class="status not-meteor">
+      <span class="not-detected">Checking...</span>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
