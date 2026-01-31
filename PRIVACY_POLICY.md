@@ -27,7 +27,6 @@ This extension does not collect, store, or process any personal data, browsing h
 ## Permissions
 
 - **activeTab** — Used to access the current tab for badge display.
-- **scripting** — Used to inject the detection script into the page context, which is required to read the page's `Meteor` and `Package` globals.
 
 ## Changes to this policy
 

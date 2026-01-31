@@ -49,7 +49,6 @@ Detection runs at multiple intervals (500ms, 1.5s, 3s) to handle late-loading Me
 | Permission | Reason |
 |---|---|
 | `activeTab` | Access the current tab for badge display |
-| `scripting` | Inject the detection script into the page context to read `Meteor` and `Package` globals |
 
 ## Privacy
 

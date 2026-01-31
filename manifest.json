@@ -4,7 +4,7 @@
   "version": "1.0",
   "description": "Detects if a website is built with MeteorJS and shows its version",
   "minimum_chrome_version": "88",
-  "permissions": ["activeTab", "scripting"],
+  "permissions": ["activeTab"],
   "content_security_policy": {
     "extension_pages": "script-src 'self'; object-src 'self';"
   },
